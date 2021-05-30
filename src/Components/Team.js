@@ -1,3 +1,4 @@
+import "./Team.css";
 function Team({ info }) {
     return (
         <div className="container">
@@ -6,7 +7,7 @@ function Team({ info }) {
                     info.map(
                         (p) => {
                             return <div key={p.TeamName}>
-                                <div class="row">
+                                <div className="row team">
                                     <img src="E:\Casestudy 1\master.jpg" class="col-md-4 p-3 " />
                                     <table class="table table-borderless col-md-4">
                                         <tr><td colspan="3" class="font-weight-bold">{p.TeamName}</td></tr>

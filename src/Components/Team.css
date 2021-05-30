@@ -1,0 +1,14 @@
+.row:first
+{
+flex-direction: column;
+overflow-x: auto;
+width:100%;
+
+}
+
+.team {
+    margin:1rem;
+    border:1px solid gray;
+    border-radius:2rem;
+    padding:2rem;
+}
